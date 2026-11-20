@@ -34,7 +34,7 @@ def calculate_gst_breakdown(price, quantity, gst_rate, interstate=False):
 class SmartGSTCalculator(tk.Tk):
 
     CONFIG = {
-        "api_key": "AIzaSyA3aQGhnJTzBNorUmFwwxtn7yRiLk3KHCc", 
+        "api_key": "provide gemini-3.1-flash-lite api key ", 
 
         "goods_google_sheet_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS5WsxKofUeuvS9IodfMnpJVYA8EAz5QRfjylrK17jWEf5oWiACl5YtpWP2_3ImpQ/pub?gid=634683792&single=true&output=csv",
         "local_goods_filename": "local_goods_db.csv",
